@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+      display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid rgb(24, 24, 11);
+    transition: 0.6s ease;
+}
+ ul li a:hover{
+     background-color: rgb(244, 247, 247);
+     color: rgb(2, 10, 17);
+ }
+
+ .logo img{
+     float: right;
+     width: 100px;
+     height: auto;
+ }
+
+   
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    border: 10px;
+    
+
+}
+.slidebar{
+    width: 500%;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ .title h1{
+     color: #fff;
+     font-size: 70px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ .btn{
+     border: 1px solid #fff;
+     padding: 10px 30px;
+     color: #fff;
+     text-decoration: none;
+ }
+ .btn:hover{
+     background-color: #fff;
+     color: #000;
+ }
+
+ .heading{
+    font-size: medium;
+    color: rgb(166, 175, 175);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../17.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.heading a{
+    color: rgb(255, 174, 0);
+    font-style: oblique;
+}
+.heading h2{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading p1{
+    color: azure;
+    font-family: Georgia;
+}
+.heading h3{
+     color: aliceblue;
+     font-family: 'Times New Roman', Times, serif;
+}
+.heading p2{
+    color: azure;
+    font-family: Georgia;
+}
+.heading h4{
+    
+    color: rgb(240, 252, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading p3{
+    color: azure;
+    font-family: Georgia;
+}
+.carousel-container{
+    
+    width: 49%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+  
+   
+}
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    
+}
+.heading2{
+    font-size: medium;
+    color: rgb(166, 175, 175);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../16.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading2 h5{
+    font-family: sans-serif;
+    font-size: large;
+}
+.heading2 h6{
+    font-family: sans-serif;
+    font-size: larger;
+}
+.heading2 h7{
+    font-family: sans-serif;
+    font-size: larger;
+}
+.heading2 h8{
+    font-family: sans-serif;
+    font-size: larger;
+    color: #fff;
+}
+.heading2 h9{
+    font-family: sans-serif;
+    font-size: larger;
+    color: #fff;
+}.heading2 h10{
+    font-family: sans-serif;
+    font-size: larger;
+    color: #fff;
+}
